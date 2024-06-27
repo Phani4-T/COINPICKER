@@ -21,7 +21,7 @@ body{
 }
 .sidenavforprevious{
     /* border:2px solid blue; */
-    width:30%;
+    width:40%;
     height:100%;
 }
 .mainnumbercontentdiv{
@@ -31,7 +31,7 @@ body{
 }
 .sidenavfornumberhistory{
     /* border:2px solid blue; */
-    width:30%;
+    width:20%;
     height:100%;
 }
 .presentnumberdiv{
@@ -66,14 +66,14 @@ body{
 }
 .Mainbottomdivsub{
     width:320px;
-    height:80%;
+    height:350px;
     display: grid;
     grid-template-columns: 28px 28px 28px 28px 28px 28px 28px 28px 28px 28px;
     grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px 35px ;
     gap: 4px;
     background-color: #f321bf;
     padding: 6px;
-    margin:40px 10px;
+    margin:20px 6px;
 }
 .Mainbottomdivsub > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -102,4 +102,18 @@ body{
     color: #fff;
     text-decoration: none;
     cursor:pointer;
+}
+.logo{
+    font-size:37px;
+    font-weight:700;
+    margin:0px;
+}
+.logocap{
+    margin:0px;
+    padding:0px;
+    float:right;
+    font-size:20px; 
+    font-weight:700;
+    color:#0000ff;
+    font-family: "Lucida Handwriting", cursive;
 }
